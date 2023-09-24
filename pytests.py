@@ -1,9 +1,11 @@
 import pytest
 from student import CheckName, Student
 
+
 @pytest.fixture
 def ch1():
     return CheckName()
+
 
 @pytest.fixture
 def s1():

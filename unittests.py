@@ -28,6 +28,5 @@ class TestStudent(unittest.TestCase):
         self.assertEqual(self.s1.average_grade(), 3.5)
 
 
-
 if __name__ == '__main__':
     unittest.main(verbosity=2)

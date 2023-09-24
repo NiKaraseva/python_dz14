@@ -93,6 +93,7 @@ class Student:
             return sum_grade / sum_sub
 
 
+
 if __name__ == '__main__':
     import doctest
     doctest.testmod(verbose=True)

@@ -11,10 +11,12 @@ class InvalidSubjectException(MyException):
         self.message = f'Subject {subject_name} not found'
         super().__init__(self.message)
 
+
 class InvalidGradeException(MyException):
     def __init__(self, grade_res: int):
         self.message = f'Grade {grade_res} is invalid, it should be between 2 and 5'
         super().__init__(self.message)
+
 
 class InvalidTestResException(MyException):
     def __init__(self, test_res: int):
